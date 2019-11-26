@@ -1,0 +1,45 @@
+$primary_color: #fff;
+
+body {
+  background-color: $primary_color;
+  width: 75%;
+  font: {
+    family: Verdana, Helvetica, Arial;
+    size: 14px;
+  }
+}
+
+a {
+  color: #0000FF;
+  img {
+    border: none;
+  }
+}
+
+.clear {
+  clear: both;
+  height: 0;
+  overflow: hidden;
+}
+
+#container {
+  width: 75%;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px 40px;
+  border: solid 1px black;
+  margin-top: 20px;
+}
+
+#content {
+  clear: both;
+  padding-top: 20px;
+}
+
+p.comment {
+    background: #f4f4f4;
+    border: 0.5px solid #f4f4f4;
+    padding-left: 5px;
+    padding-right: 5x;
+    border-radius: 2px;
+}
