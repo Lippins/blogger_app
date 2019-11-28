@@ -6,13 +6,17 @@
   <% end %>
 </p>
 
-<% if @article.image.exists? %>
-  <p><%= image_tag @article.image.url %></p>
-<% end %>
+<div class ="article_body">
+  <% if @article.image.exists? %>
+    <p><%= image_tag @article.image.url %></p>
+  <% end %>
 
-<p>
-  <%= @article.body %>
-</p>
+  <p style="white-space: pre-line;">
+    <%= @article.body %>
+  </p>
+</div>
+
+<hr>
 
 <h3>
   Comments (<%= @article.comments.size %>)

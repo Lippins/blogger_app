@@ -1,12 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
 $primary_color: #fff;
 
 body {
   background-color: $primary_color;
   width: 75%;
   font: {
-    family: Verdana, Helvetica, Arial;
+    family: Arial, Helvetica, Verdana;
     size: 14px;
   }
+}
+
+h1{
+  font: 200% 'Crimson Text', serif;
 }
 
 a {
@@ -27,7 +32,7 @@ a {
   margin: 0 auto;
   background: #fff;
   padding: 20px 40px;
-  border: solid 1px black;
+  border: solid 1px #666;
   margin-top: 20px;
 }
 
@@ -37,9 +42,38 @@ a {
 }
 
 p.comment {
-    background: #f4f4f4;
-    border: 0.5px solid #f4f4f4;
-    padding-left: 5px;
-    padding-right: 5x;
-    border-radius: 2px;
+  background: #f4f4f4;
+  border: 1px solid #f4f4f4;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+div.article_body{
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+h4.comment_header{
+  font-size: 100%;
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+
+p.time {
+  font-style: italic;
+  font-size: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+a.new_article{
+  background: #ff3232;
+  color: #fff;
+}
+
+a.new_article:hover{
+  background: #ff6666;
+  color: #fff;
 }
